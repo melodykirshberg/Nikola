@@ -1,3 +1,7 @@
+/* TODO  
+-make sure shows styles across all browsers
+*/
+
 /* Responsive Grid */
 
 * {
@@ -88,4 +92,31 @@
 
 .active {
     background-color: #55556a;
+}
+
+/* Header */
+
+.head {
+    position: relative;
+    text-align: center;
+    color: gainsboro;
+}
+
+.headImg {
+    width: 100%;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.head h1 {
+    font-size: xxx-large;
+}
+
+.head h5 {
+    font-size: larger;
 }
