@@ -1,0 +1,18 @@
+nav {
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+nav a {
+    color: gainsboro;
+    text-align: center;
+    padding: 20px 20px;
+    display: inline-block;
+    border-style: solid;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #555;
+}
