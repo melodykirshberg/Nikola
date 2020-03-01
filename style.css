@@ -1,13 +1,8 @@
-/* TODO  
--make sure shows styles across all browsers
--make accessible 
-*/
-
 /* Responsive Grid */
 
 body {
     margin: 0;
-    font-family: Calibri, sans-serif;
+    font-family: Calibri;
 }
 
 * {
@@ -82,7 +77,7 @@ body {
 }
 
 .nav a {
-    color: gainsboro;
+    color: white;
     text-align: center;
     padding: 13px 20px;
     display: inline-block;
@@ -105,7 +100,7 @@ body {
 .head {
     position: relative;
     text-align: center;
-    color: gainsboro;
+    color: white;
 }
 
 .headImg {
@@ -120,12 +115,12 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.head h1 {
-    font-size: xxx-large;
+.text h1 {
+    font-size: 4em;
 }
 
-.head h5 {
-    font-size: larger;
+.text h2 {
+    font-size: x-large;
 }
 
 /* Card */
@@ -152,7 +147,7 @@ body {
 
 #cardOne button {
     background-color: green;
-    color: gainsboro;
+    color: white;
     border-style: none;
     padding: 10px;
     border-radius: 5px;
@@ -166,7 +161,7 @@ body {
 
 #cardTwo button {
     background-color: blue;
-    color: gainsboro;
+    color: white;
     border-style: none;
     padding: 10px;
     border-radius: 5px;
@@ -180,13 +175,15 @@ body {
 
 #cardThree button {
     background-color: red;
-    color: gainsboro;
+    color: white;
     border-style: none;
     padding: 10px;
     border-radius: 5px;
     font-size: 100%;
     cursor: pointer;
 }
+
+/* Column Cards */
 
 .column {
     padding: 0px 20px 20px 20px;
@@ -208,12 +205,14 @@ body {
     margin-left: 40%;
 }
 
+/* Media */
+
 @media only screen and (max-width: 768px) {
     [class*="col-"] {
         width: 100%;
     }
     .nav a {
-        color: gainsboro;
+        color: white;
         text-align: center;
         padding: 10px;
         border-style: solid;
