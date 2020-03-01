@@ -187,3 +187,23 @@ body {
     font-size: 100%;
     cursor: pointer;
 }
+
+.column {
+    padding: 0px 20px 20px 20px;
+}
+
+.column h2 {
+    text-align: center;
+    color: grey;
+}
+
+.column button {
+    color: grey;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 100%;
+    cursor: pointer;
+    border-color: darkgrey;
+    margin-left: 40%;
+}
