@@ -8,3 +8,4 @@ CSS - HTML
 
 ## Credits
 [Melody Kirshberg](https://github.com/verlitas)  
+All images were found [*here*](https://www.reddit.com/r/reddeadphotography/)
