@@ -21,7 +21,7 @@ body {
 
 [class*="col-"] {
     float: left;
-    padding: 45px;
+    padding: 40px;
 }
 
 .col-1 {
@@ -76,7 +76,7 @@ body {
 
 .nav {
     overflow: hidden;
-    background-color: #817f7b;
+    background-color: #6f6f6f;
     text-align: center;
 }
 
@@ -93,11 +93,11 @@ body {
 }
 
 .nav a:hover {
-    background-color: #77746d;
+    background-color: #565656;
 }
 
 .active {
-    background-color: #77746d;
+    background-color: #565656;
 }
 
 /* Header */
@@ -136,4 +136,54 @@ body {
 
 .container {
     background-color: #efefef;
+}
+
+.cardText {
+    padding: 0px 20px 20px 20px;
+}
+
+.button {
+    text-align: center;
+}
+
+#cardOne h2 {
+    color: green;
+}
+
+#cardOne button {
+    background-color: green;
+    color: gainsboro;
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+#cardTwo h2 {
+    color: blue;
+}
+
+#cardTwo button {
+    background-color: blue;
+    color: gainsboro;
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+#cardThree h2 {
+    color: red;
+}
+
+#cardThree button {
+    background-color: red;
+    color: gainsboro;
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 100%;
+    cursor: pointer;
 }
